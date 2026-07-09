@@ -10,7 +10,7 @@
     color: #FFFFFF;
     border-radius: 8px;
 }
-
+/* nav section start */
 nav{
     display: flex;
     justify-content: space-between;
@@ -27,3 +27,42 @@ ul li{
     list-style: none;
 }
 
+/* nav section end */
+
+/* hero section start */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header div{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header div h1{
+    font-size: 8rem;
+    margin-top: 136px;
+}
+
+header div p{
+    margin-top: 16px;
+    font-size: 30px;
+}
+
+header div button{
+    margin-top: 278px;
+}
+
+.btn-banner{
+    padding: 25px 62px;
+    font-size: 1.2rem;
+}
+
+/* hero section end */
