@@ -24,7 +24,7 @@ ul{
     gap: 24px;
 }
 
-ul li{
+nav ul li{
     list-style: none;
     color: #575757;
 }
@@ -110,4 +110,82 @@ header div button{
 }
 .img-1 h3{
     padding: 8px 24px ;
+}
+/* meet speaker section ended */
+
+/* secure your spot sectiom start */
+
+.meet-section .title-p{
+ text-align: center;
+ 
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card{
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    
+}
+
+.card ul{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+   
+}
+
+.card  .card-titles{
+    padding: 32px;
+}
+.card-titles p {
+    color: #575757;
+}
+.card-titles h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.card hr {
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+
+.card button {
+    color: #1D4ED8;
+    border-color: #2563EB;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 11px 106px;
+}
+
+.card-unique{
+    background-color: #0D1B2A;
+}
+
+.card-unique p {
+    color: #93C5FD;
+}
+.card-unique h2 {
+    color: #ffffff;
+}
+.card-unique .special-p {
+    color: #888888;
+   
+}
+
+.card-unique .special-btn{
+ 
+    border: none;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.card-unique ul li{
+    color: #FFFFFF;
 }
