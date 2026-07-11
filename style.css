@@ -26,6 +26,7 @@ ul{
 
 ul li{
     list-style: none;
+    color: #575757;
 }
 
 /* nav section end */
@@ -67,3 +68,46 @@ header div button{
 }
 
 /* hero section end */
+
+/* meet the speaker section */
+
+.img-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 33px;
+  
+}
+
+.meet-the-speaker{
+   max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.meet-the-speaker h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 56px;
+}
+
+
+.img-1{
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-1 p{
+    padding: 8px 24px ;
+  
+}
+.img-1 .p-title{
+    color: #2563EB;
+}
+
+.img-1 .p-pera{
+    color: #575757;
+}
+.img-1 h3{
+    padding: 8px 24px ;
+}
