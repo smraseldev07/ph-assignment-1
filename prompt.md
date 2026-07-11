@@ -1,0 +1,1 @@
+this is a devcon website . and there is missing section . generate me a begineer friendly section with html css . The section must stay relevant to the DevConf 2026 theme (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.).
